@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h7> Резюме <h7>
-        <h2>Захаров Анатолий Александрович</h2>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header с кнопками по центру</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header-buttons {
+            display: flex;
+        }
+        .header-buttons button {
+            margin-left: 10px;
+            padding: 8px 12px;
+            background-color: #555;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .header-buttons button:first-child {
+            margin-left: 0;
+        }
+        .header-buttons button:hover {
+            background-color: #777;
+        }
+        .name-section {
+            background-color: #40E0D0; /* Бирюзовый цвет */
+            color: #000;
+            padding: 20px;
+            text-align: left;
+            font-size: 96px; /* 4 раза крупнее, чем обычный размер шрифта (24px) */
+            font-weight: bold;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-buttons">
+            <button>Главная</button>
+            <button>Навыки</button>
+            <button>Опыт</button>
+            <button>Портфолио</button>
+            <button>Хобби</button>
+            <button>Музыка</button>
+        </div>
+    </header>
+    <div class="name-section">
+        Анатолий<br>Захаров
+    </div>
+    <!-- Остальное содержимое страницы -->
+</body>
 </html>
