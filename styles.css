@@ -1,3 +1,4 @@
+/* Общие стили для всех страниц */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -32,20 +33,20 @@ header {
     margin-left: 0; /* Убираем отступ у первой кнопки */
 }
 
-.header-buttons button:nth-child(5) {
-    margin-left: 40px; /* Увеличиваем отступ перед пятой кнопкой */
-}
-
 .header-buttons button:hover {
     background-color: #777;
 }
-
-.name-section {
-    background-color: #40E0D0; /* Бирюзовый цвет */
-    color: #000;
+/* Уникальные стили для resume.html */
+.resume-specific .name-section {
+    background-color: #40E0D0; /* Бирюзовый цвет для resume.html */
+    color: #000; /* Цвет текста для resume.html */
     padding: 20px;
     text-align: left;
     font-size: 96px; 
     font-weight: bold;
     line-height: 1;
+}
+/* Уникальные стили для newpage.html */
+.newpage-specific .name-section {
+    /* Добавьте любые уникальные стили, если необходимо */
 }
