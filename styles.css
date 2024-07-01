@@ -32,21 +32,45 @@ header {
 .header-buttons button:first-child {
     margin-left: 0; /* Убираем отступ у первой кнопки */
 }
-
+.header-buttons button:nth-child(5) {
+    margin-left: 80px; 
+}
+.header-buttons button:nth-child(7) {
+    margin-left: 80px; 
+}
 .header-buttons button:hover {
     background-color: #777;
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: fixed; /* Фиксированное положение */
+    bottom: 0; /* Прикрепляем к нижней части страницы */
+    width: 100%; /* Ширина 100% */
+}
+
+    
+
+/* "name-section resume-specific" */
 /* Уникальные стили для resume.html */
-.resume-specific .name-section {
+.name-section.resume-specific  {
     background-color: #40E0D0; /* Бирюзовый цвет для resume.html */
     color: #000; /* Цвет текста для resume.html */
-    padding: 20px;
+    padding: 350px;
+    padding-left: 300px;
+    padding-top: 200px;
     text-align: left;
     font-size: 96px; 
     font-weight: bold;
     line-height: 1;
 }
-/* Уникальные стили для newpage.html */
-.newpage-specific .name-section {
+/* Уникальные стили для Контакты.html */
+.name-section.contacts-specific  {
     /* Добавьте любые уникальные стили, если необходимо */
+
 }
