@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons button {
+    margin-left: 10px; /* Оставляем отступ 10px для всех кнопок */
+    padding: 8px 12px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header-buttons button:first-child {
+    margin-left: 0; /* Убираем отступ у первой кнопки */
+}
+
+.header-buttons button:nth-child(5) {
+    margin-left: 40px; /* Увеличиваем отступ перед пятой кнопкой */
+}
+
+.header-buttons button:hover {
+    background-color: #777;
+}
+
+.name-section {
+    background-color: #40E0D0; /* Бирюзовый цвет */
+    color: #000;
+    padding: 20px;
+    text-align: left;
+    font-size: 96px; 
+    font-weight: bold;
+    line-height: 1;
+}
