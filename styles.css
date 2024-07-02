@@ -1,5 +1,7 @@
+/*шрифты с font google*/
 @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Great+Vibes&family=Press+Start+2P&display=swap');
 /* Общие стили для всех страниц */
 body {
     font-family: Arial, sans-serif;
@@ -54,23 +56,24 @@ footer {
     position: fixed; /* Фиксированное положение */
     bottom: 0; /* Прикрепляем к нижней части страницы */
     width: 100%; /* Ширина 100% */
+   
 }
-
-    
+ 
 
 
 /* Главная homePage.html */
 
-.resume-specific  {
-    background-color: #40E0D0; /* Бирюзовый цвет для resume.html */
-    color: #000; /* Цвет текста для resume.html */
+.homePage-specific  {
+    background-color: #40E0D0; 
+    color: #000; 
     padding: 350px;
-    padding-left: 300px;
+    padding-left: 50px;
     padding-top: 200px;
     text-align: left;
     font-size: 96px; 
     font-weight: bold;
     line-height: 1;
+    font-family: "Press Start 2P", system-ui;
     
 }
 /* Контакты contacts.html*/
@@ -99,6 +102,7 @@ footer {
     position: absolute;
     padding-left: 1150px;
     padding-top: 150px;
+    font-family: "Great Vibes", cursive;
 }
 
 /*Навыки skills.html*/
@@ -119,7 +123,28 @@ footer {
     bottom: 830px;
     font-size: 180%;
     }
-                
+ /* Опыт practice.html*/ 
+ .roundButton {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: grey;
+}        
+ .roundButton:active {
+    background-color: darkred;
+}      
+.history-button {
+    display: flex;
+            flex-direction: column; /* Расположение элементов по вертикали */
+            justify-content: center; /* Вертикальное центрирование */
+            align-items: center; /* Горизонтальное центрирование */
+            height: 100%; /* Высота контейнера равна высоте страницы */
+            gap: 100px; /* Отступы между кнопками */
+}
     
-    
+.history-button button:first-child {
+    margin-top: 100px;
 }

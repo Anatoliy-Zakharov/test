@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="header-buttons">
-            <button onclick="window.location.href='resume.html'">Главная</button>
+            <button onclick="window.location.href='homePage.html'">Главная</button>
             <button onclick="window.location.href='skills.html'">Навыки</button>
             <button onclick="window.location.href='practice.html'">Опыт</button>
             <button onclick="window.location.href='portfolio.html'">Портфолио</button>
@@ -18,5 +18,19 @@
             <button onclick="window.location.href='contacts.html'">Контакты</button> 
         </div>
             </header>
+            <div class=history-button>     
+            <button class="roundButton"></button>
+            <button class="roundButton"></button>           
+            <script>
+                document.addEventListener('DOMContentLoaded', (event) => {
+                    const buttons = document.querySelectorAll('.roundButton');
+                    buttons.forEach(button => {
+                        button.addEventListener('click', () => {
+                            button.style.backgroundColor = 'red';
+                        });
+                    });
+                });
+            </script>
+            </div> 
         </body>
 </html>
