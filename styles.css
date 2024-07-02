@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
 /* Общие стили для всех страниц */
 body {
     font-family: Arial, sans-serif;
@@ -56,9 +58,10 @@ footer {
 
     
 
-/* "name-section resume-specific" */
-/* Уникальные стили для resume.html */
-.name-section.resume-specific  {
+
+/* Главная homePage.html */
+
+.resume-specific  {
     background-color: #40E0D0; /* Бирюзовый цвет для resume.html */
     color: #000; /* Цвет текста для resume.html */
     padding: 350px;
@@ -68,10 +71,11 @@ footer {
     font-size: 96px; 
     font-weight: bold;
     line-height: 1;
+    
 }
-/* Уникальные стили для Контакты.html */
+/* Контакты contacts.html*/
 
-.name-section.contacts-specific 
+.contacts-specific 
 {
     background: url(../img/контакты3.png);
     height: 90vh;
@@ -87,6 +91,7 @@ footer {
     position: absolute;
     padding-left: 1150px;
     padding-top: 40px;
+    
 }
 #mail{
     font-size: 36px;
@@ -95,6 +100,9 @@ footer {
     padding-left: 1150px;
     padding-top: 150px;
 }
+
+/*Навыки skills.html*/
+
 #fondTest{
     background-color: #40E0D0; 
     color: white;
@@ -103,8 +111,15 @@ footer {
     text-align: center;
     font-size: 120px; 
     font-weight: bold;
-    
-    
+    font-family: "Ga Maamli", sans-serif;
+}
+   
+#text{
+    position: relative;
+    bottom: 830px;
+    font-size: 180%;
+    }
+                
     
     
 }
