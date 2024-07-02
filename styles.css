@@ -70,7 +70,28 @@ footer {
     line-height: 1;
 }
 /* Уникальные стили для Контакты.html */
-.name-section.contacts-specific  {
-    /* Добавьте любые уникальные стили, если необходимо */
 
+.name-section.contacts-specific 
+{
+    background: url(../img/контакты3.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#Phone{
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    padding-left: 1150px;
+    padding-top: 40px;
+}
+#mail{
+    font-size: 36px;
+    color: blue;
+    position: absolute;
+    padding-left: 1150px;
+    padding-top: 150px;
 }
