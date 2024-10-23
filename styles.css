@@ -181,7 +181,22 @@ footer {
     z-index: 1;
 }    
 #textPortfolio {
+    top: -29.8px;
     font-size: 30px;
+    background-color: #c1fa23;
+    width: 100vw;
+    position: relative;
+}
+#fondTextPortfolio {
+    background-color: #b0d4e8;
+}
+
+#fondTextPortfolio2 {
+    background-image: url('https://i.postimg.cc/JhtLTTh6/2024-10-24-01-19-18.png');
+    background-size: cover; /* Масштабирует изображение на весь экран */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Предотвращает повторение */
+    color: rgb(145, 212, 218);
 }
 
 .roundButton {
