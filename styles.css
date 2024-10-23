@@ -91,9 +91,9 @@ footer {
  
 
 
-/* Главная homePage.html */
+/* Главная index.html */
 
-.homePage-specific  {
+.index-specific  {
     background-color: #40E0D0; 
     color: #000; 
     padding: 350px;
@@ -106,7 +106,7 @@ footer {
     font-family: "Press Start 2P", system-ui;
     
 }
-    .homePage-specific img {
+    .index-specific img {
             position: absolute;
             top: 70px;  /* Смещение изображения по вертикали */
             right: 50px; /* Смещение изображения по горизонтали */
