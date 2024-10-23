@@ -17,20 +17,22 @@
             <button onclick="window.location.href='music.html'">Музыка</button>
             <button onclick="window.location.href='contacts.html'">Контакты</button> 
         </div>
-            </header>
-            <div class=history-button>     
-            <button class="roundButton"></button>
-            <button class="roundButton"></button>           
-            <script>
-                document.addEventListener('DOMContentLoaded', (event) => {
-                    const buttons = document.querySelectorAll('.roundButton');
-                    buttons.forEach(button => {
-                        button.addEventListener('click', () => {
-                            button.style.backgroundColor = 'red';
-                        });
-                    });
+    </header>
+
+    <div class="history-button">     
+        <button class="roundButton"></button>
+        <button class="roundButton"></button>           
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const buttons = document.querySelectorAll('.roundButton');
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    button.style.backgroundColor = 'red';
                 });
-            </script>
-            </div> 
-        </body>
+            });
+        });
+    </script>
+</body>
 </html>
