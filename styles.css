@@ -60,7 +60,7 @@ header {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
-    z-index: 10
+    z-index: 10;
 }
 
 .header-buttons button:first-child {
@@ -240,6 +240,7 @@ footer {
     position: relative;
     display: flex;
     
+    
 }
 
 .overlay-text {
@@ -251,3 +252,78 @@ footer {
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для улучшения читаемости */
   }
+  
+#imgHobby1 {
+    background-image: url("https://i.postimg.cc/Pq0Ghsh7/24-10-2024-014629.jpg");
+    position: absolute;
+    height: 100vh;
+    background-size: 110%;
+    background-repeat: no-repeat;    
+    margin-top: 110px;
+          
+        
+}
+
+#imgHobby2 {
+    background-image: url("https://i.postimg.cc/zX8sqkZq/image.jpg");
+    position: absolute;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-left: 800px;
+    margin-top: 50px;
+
+}
+#imgHobby3 {
+    background-image: url("https://i.postimg.cc/JzhSk4zg/23-10-2024-183155.jpg");
+    position: absolute;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 88%;
+    margin-left: 800px;
+    margin-top: 250px;
+}
+
+#imgHobby4 {
+    background-image: url("https://i.postimg.cc/90VnFckL/image.jpg");
+    position: absolute;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin-left: 830px;
+    margin-top: 450px;
+}
+
+
+#textHobby1 {
+    font-size: 24px;
+    margin-top: -75px;   
+    background-color: rgba(128, 128, 128, 0.7); /* Светло-серая полупрозрачная рамка */
+    padding: 10px; /* Отступы вокруг текста */
+    border-radius: 8px; /* Закругление углов рамки */
+    color: white; /* Цвет текста для контраста */
+}
+
+#textHobby2 {
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+#textHobby3 {
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+#textHobby4 {
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+    left: 270px;
+}
