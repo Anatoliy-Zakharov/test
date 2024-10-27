@@ -200,13 +200,14 @@ footer {
 }
 
 .roundButton {
-        display: inline-block;
         width: 50px; /* Увеличен размер */
         height: 50px; /* Увеличен размер */
         border: none;
         border-radius: 50%;
         cursor: pointer;
         background-color: grey;
+        top: 100px;
+        
 }
     
 .roundButton:active {
@@ -214,10 +215,39 @@ footer {
 }
     
 .history-button {
-        padding: 200px;
-        display: flex;
-        flex-direction: column; /* Расположение элементов по вертикали */
-        align-items: center; /* Горизонтальное центрирование */
-        height: 100vh; /* Высота контейнера на всю страницу */
-        gap: 130px; /* Отступы между кнопками */
+    top: 100px;
+    position: absolute; /* Положение может быть изменено в зависимости от ваших требований */
+    display: flex;
+    flex-direction: column; /* Расположение элементов по вертикали */
+    justify-content: center; /* Центрирует кнопки по горизонтали */
+    gap: 110px; /* Отступы между кнопками */
+    top: 100px; /* Позиция по вертикали */
+    left: 50%; /* Сдвиг влево на 50% */
+    transform: translateX(-50%);
 }
+#textPracticeL {
+    margin-left: 50px;
+}
+#textPracticeR {
+    margin-left: 350px;
+}
+
+#fondPractice {
+    height: 100vh;
+    background-image: url('https://i.postimg.cc/9fvVLjqb/2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%); 
+    color: white; /* Цвет текста */
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для улучшения читаемости */
+  }
